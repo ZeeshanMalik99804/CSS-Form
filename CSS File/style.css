@@ -1,0 +1,66 @@
+*{
+    background-color: rgb(61, 60, 60);
+}
+
+.main{
+    width: 30%;
+    margin: 100px auto 0;
+}
+.heading{
+    margin: 30px 100px ;
+    color: blue;
+}
+input,textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid white;
+    font-size: 20px;
+    width: 100%;
+    height: 30px;
+    resize: none;
+}
+textarea{
+    height: 70px;
+}
+input:hover{
+    border-bottom: 1px solid rgb(0, 0, 255);
+    
+
+}
+textarea:hover{
+    border-bottom: 1px solid rgb(0, 0, 255);
+}
+input,textarea:focus{
+    outline: none;
+}
+input:hover::placeholder{
+    color: blue;
+}
+textarea:hover::placeholder{
+    color: blue;
+}
+.buttons{
+    margin: 50px auto;
+    width: 30%;
+    height: 20px;    
+}
+.button1{
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    margin:0 0 0 30% ;
+    border: none;
+}
+.button1:hover{
+    cursor: pointer;
+}
+.button2{
+    font-size: 20px;
+    color: gray;
+    background-color: white;
+    margin: 0 5% 0 0;
+    border: none;
+}
+.button2:hover{
+    cursor: pointer;
+}
